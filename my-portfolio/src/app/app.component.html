@@ -20,7 +20,7 @@
       <img class="w-[64px]" src="https://media.giphy.com/media/AkhXtoYF4NgKgyXfNs/giphy.gif" alt="">
       <p class="text-[40px] font-vt323">Welcome</p>
     </div>
-    <div class="flex items-center gap-6">
+    <div class="flex items-center gap-5">
       <div class="md:static md:min-h-fit md:w-auto md:rounded-full md:drop-shadow-lg  absolute min-h-[60vh] left-0 top-[9%] w-full flex items-center px-5  bg-[#FEFCF3]  text-[#606C5D]">
         <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
           <a href="#home">
@@ -38,7 +38,7 @@
         </ul>
       </div>
       
-        <ion-icon  name="menu-outline"></ion-icon>
+        <mat-icon (click)="onToggleMenu()" class="text-[30px] cursor-pointer">{{ menuOpen ? 'menu' : 'close' }}</mat-icon>
       
       
     </div>
@@ -164,11 +164,10 @@
   </main>
   <script>
     function onToggleMenu(e){
-      console.log(e.name)
+      console.log(e)
     }
   </script>
-   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
 </body>
 
 </html>
