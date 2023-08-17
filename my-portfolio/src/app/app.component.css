@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/* * {
+	margin: 0;
+	padding: 0;
+	font: inherit;
+} */
+img,
+picture,
+video,
+canvas,
+svg {
+	display: block;
+	max-width: 100%;
+}
+
+button,
+textarea,
+select {
+	outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+.container {
+	width: 100%;
+	max-width: 1440px !important;
+	margin: 0 auto;
+	padding-left: 100px;
+	padding-right: 100px;
+}
