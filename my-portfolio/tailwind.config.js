@@ -5,8 +5,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       vt323: ["VT323"],
-      heading: ["Lilita One"],
-      desc: ["Ubuntu Mono"],
+      heading: ["Oswald"],
+      desc: ["PT Mono"],
       sans: ["Open Sans"],
     },
   },
