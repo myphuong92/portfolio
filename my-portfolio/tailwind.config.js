@@ -6,7 +6,8 @@ module.exports = {
     fontFamily: {
       vt323: ["VT323"],
       heading: ["Oswald"],
-      desc: ["PT Mono"],
+      // desc: ["PT Mono"],
+      desc: ["Open Sans"],
       sans: ["Open Sans"],
     },
   },
